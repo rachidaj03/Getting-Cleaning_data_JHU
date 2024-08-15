@@ -8,6 +8,7 @@ The run_analysis.R script is based on the steps that have been indicated at the 
    - merged_data is what interests us it is the measurements along with the subject and the activity he is doing
 2. Extracts only the measurements on the mean and standard deviation for each measurement
    - merged_data has also been filtered to have only mean and standard deviation for each measurement
+   - I prefered to use the contains("") function other than the grepl because the second one gave me some errors that I could not detect why 
 3. Uses descriptive activity names to name the activities in the data set
    - merged_data has been labeled to activities rather than a code number
 4. Appropriately labels the data set with descriptive variable names
